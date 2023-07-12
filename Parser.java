@@ -14,7 +14,7 @@ public class Parser {
 
     public File cleanFile(File inputFile) throws IOException {
         try {
-            String outputFileName = "/home/shrisharanyan/3_College/EOC/VM_Translator/output_files/"
+            String outputFileName = "output_files/"
                     + inputFile.getName() + ".txt";
             File outputFile = new File(outputFileName);
             BufferedReader br = new BufferedReader(new FileReader(inputFile));
